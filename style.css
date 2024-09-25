@@ -1,33 +1,21 @@
-/* styles.css */
-
-/* Basic reset to remove default margins and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* Style for the body */
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;  
-    font-size: 12pt;                 
-    background-color: #f0eded;       
-    color: #333366;                  
-    margin: 15pt;                    
+    font-family: Arial, sans-serif;  /* Sets the body font to Arial */
+    font-size: 12pt;                 /* Sets the font size */
+    background-color: #f5f5f5;       /* Light grey background color */
+    color: #333366;                  /* Dark grey-blue text color */
+    margin: 15pt;                    /* Margin greater than 10pt on all sides */
 }
 
-
-
-/* Style for headings */
+/* Styling for H1 heading */
 h1 {
-    font-family: 'Georgia', serif;  /* Font choice that makes H1 stand out */
-    font-size: 28pt;                /* Large font size to indicate importance */
-    color: #2a3e84;                 /* A bold color to make it prominent */
-    margin-bottom: 10px;            /* Adds space below the heading */
+    font-family: 'Georgia', serif;   /* Font choice that makes H1 stand out */
+    font-size: 28pt;                 /* Large font size to indicate importance */
+    color: #2a3e84;                  /* Bold color */
+    margin-bottom: 10px;             /* Adds space below the heading */
 }
 
-/* Style for H2 heading */
+/* Styling for H2 heading */
 h2 {
     font-family: 'Verdana', sans-serif; /* Slightly different font */
     font-size: 24pt;                    /* Smaller than H1 to indicate less importance */
@@ -35,7 +23,7 @@ h2 {
     margin-bottom: 8px;                 /* Adds space below the heading */
 }
 
-/* Style for H3 heading */
+/* Styling for H3 heading */
 h3 {
     font-family: 'Tahoma', sans-serif;  /* Another distinct font choice */
     font-size: 20pt;                    /* Smaller size for H3 */
@@ -43,18 +31,73 @@ h3 {
     margin-bottom: 6px;                 /* Adds space below the heading */
 }
 
-/* Style for links */
-a {
-    color: #3498db;                 /* Sets link color */
-    text-decoration: none;          /* Removes underline from links */
+/* Styling for H4 heading */
+h4 {
+    font-family: 'Arial', sans-serif;   /* Simple and clean font */
+    font-size: 16pt;                    /* Smaller size, showing lower importance */
+    color: #687a9f;                     /* A lighter, softer shade */
+    margin-bottom: 5px;                 /* Adds space below the heading */
 }
 
-a:hover {
-    text-decoration: underline;     /* Underlines links when hovered */
-}
-
-/* Style for paragraphs */
+/* General paragraph styling */
 p {
-    margin-bottom: 15px;            /* Adds space below each paragraph */
+    font-family: 'Helvetica', sans-serif; /* Clean and modern font */
+    font-size: 14pt;                      /* Readable size */
+    color: #4a4a4a;                       /* Medium-dark grey color */
+    line-height: 1.6;                     /* Space between lines */
+    margin-bottom: 10px;                  /* Space below paragraphs */
 }
 
+/* Normal state for non-visited links */
+a {
+    color: #0066cc;                  /* Blue color for non-visited links */
+    text-decoration: none;           /* Removes the underline */
+}
+
+/* Hover state */
+a:hover {
+    color: #003399;                  /* Darker blue on hover */
+    text-decoration: underline;      /* Adds underline when hovering */
+}
+
+/* Active state */
+a:active {
+    color: #933b90;                  /* Red color when the link is active (clicked) */
+}
+
+/* Visited state */
+a:visited {
+    color: #551a8b;                  /* Purple color for visited links */
+}
+
+/* Styling for the content wrapper */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Styling for the text section */
+.text-div {
+    padding: 10px;
+    background-color: #e8f0fe; /* Light background color */
+    margin-bottom: 20px;
+}
+
+/* Styling for the links section */
+.links-div table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+.links-div td {
+    border: 1px solid #ccc;    /* Light border */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Make link cells distinct */
+.links-div td:first-child {
+    background-color: #f5f5f5;
+}
