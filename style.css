@@ -10,7 +10,7 @@ body {
 /* Styling for H1 heading */
 h1 {
     font-family: 'Georgia', serif;   /* Font choice that makes H1 stand out */
-    font-size: 28pt;                 /* Large font size to indicate importance */
+    font-size: 30pt;                 /* Large font size to indicate importance */
     color: #2a3e84;                  /* Bold color */
     margin-bottom: 10px;             /* Adds space below the heading */
 }
