@@ -61,12 +61,12 @@ a:hover {
 }
 
 
-a:active {
+.links-table a:active {
     color: #f59ef2;                  
 }
 
 
-a:visited {
+.links-table a:visited {
     color: #c738b6;                  
 }
 
