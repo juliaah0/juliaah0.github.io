@@ -1,123 +1,105 @@
-/* General body styling */
+
 body {
-    font-family: Arial, sans-serif;  /* Sets the body font to Arial */
-    font-size: 12pt;                 /* Sets the font size */
-    background-color: #ffffff;       /* Light grey background color */
-    color: #333366;                  /* Dark grey-blue text color */
-    margin: 15pt;                    /* Margin greater than 10pt on all sides */
+    font-family: Arial, sans-serif;  
+    font-size: 12pt;                 
+    background-color: #f5f5f5;       
+    color: #333366;                  
+    margin: 15pt;                    
 }
 
-/* Styling for H1 heading */
+
 h1 {
-    font-family: 'Georgia', serif;   /* Font choice that makes H1 stand out */
-    font-size: 30pt;                 /* Large font size to indicate importance */
-    color: #2a3e84;                  /* Bold color */
-    margin-bottom: 10px;             /* Adds space below the heading */
+    font-family: 'Georgia', serif;   
+    font-size: 30pt;                 
+    color: #2a3e84;                  
+    margin-bottom: 10px;             
 }
 
-/* Styling for H2 heading */
+
 h2 {
-    font-family: 'Verdana', sans-serif; /* Slightly different font */
-    font-size: 24pt;                    /* Smaller than H1 to indicate less importance */
-    color: #3e4f99;                     /* A slightly lighter color */
-    margin-bottom: 8px;                 /* Adds space below the heading */
+    font-family: 'Verdana', sans-serif; 
+    font-size: 24pt;                    
+    color: #3e4f99;                     
+    margin-bottom: 8px;                 
 }
 
-/* Styling for H3 heading */
+
 h3 {
-    font-family: 'Tahoma', sans-serif;  /* Another distinct font choice */
-    font-size: 20pt;                    /* Smaller size for H3 */
-    color: #54678f;                     /* A subtler shade */
-    margin-bottom: 6px;                 /* Adds space below the heading */
+    font-family: 'Tahoma', sans-serif;  
+    font-size: 20pt;                    
+    color: #54678f;                     
+    margin-bottom: 6px;                 
 }
 
-/* Styling for H4 heading */
+
 h4 {
-    font-family: 'Arial', sans-serif;   /* Simple and clean font */
-    font-size: 16pt;                    /* Smaller size, showing lower importance */
-    color: #687a9f;                     /* A lighter, softer shade */
-    margin-bottom: 5px;                 /* Adds space below the heading */
+    font-family: 'Arial', sans-serif;   
+    font-size: 16pt;                    
+    color: #687a9f;                     
+    margin-bottom: 5px;                 
 }
 
-/* General paragraph styling */
+
 p {
-    font-family: 'Helvetica', sans-serif; /* Clean and modern font */
-    font-size: 14pt;                      /* Readable size */
-    color: #4a4a4a;                       /* Medium-dark grey color */
-    line-height: 1.6;                     /* Space between lines */
-    margin-bottom: 10px;                  /* Space below paragraphs */
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 14pt;                      
+    color: #4a4a4a;                       
+    line-height: 1.6;                     
+    margin-bottom: 10px;                  
 }
 
-/* Normal state for non-visited links */
+
 a {
-    color: #0066cc;                  /* Blue color for non-visited links */
-    text-decoration: none;           /* Removes the underline */
+    color: #0066cc;                  
+    text-decoration: none;           
 }
 
-/* Hover state */
+
 a:hover {
-    color: #003399;                  /* Darker blue on hover */
-    text-decoration: underline;      /* Adds underline when hovering */
+    color: #003399;                  
+    text-decoration: underline;      
 }
 
-/* Active state */
+
 a:active {
-    color: #933b90;                  /* Red color when the link is active (clicked) */
+    color: #933b90;                  
 }
 
-/* Visited state */
+
 a:visited {
-    color: #551a8b;                  /* Purple color for visited links */
+    color: #551a8b;                  
 }
 
-/* Styling for the content wrapper */
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-/* General body styling */
-body {
-    font-family: Arial, sans-serif;
-    font-size: 12pt;
-    background-color: #f5f5f5;
-    color: #333366;
-    margin: 15pt;
-}
 
-/* Styling for the links table */
 .links-table {
     width: 100%;
-    border: 1px solid #787878;           /* Light border around the table */
-    border-collapse: collapse;        /* Removes space between table borders */
+    border: 1px solid #3e4f99;       
+    border-collapse: collapse;       
+    background-color: #ffe6f2;       
     margin-top: 20px;
 }
 
-/* Styling for the links table */
-.links-table {
-    width: 100%;
-    border: 1px solid #3e4f99;       /* Light pink border around the table */
-    border-collapse: collapse;        /* Removes space between table borders */
-    background-color: #ffffff;        
-    margin-top: 20px;
-}
 
-/* Styling for each table cell */
 .links-table td {
     padding: 15px;
-    border: 1px solid #3e4f99;        /* Light pink border between cells */
-    color: #2a3e84;                   /* Dark magenta text color */
-    font-weight: bold;                /* Bold text */
+    border: 1px solid #3e4f99;       
+    color: #2a3e84;                  
+    font-weight: bold;               
 }
 
-/* Styling for the links */
+
 .links-table a {
-    color: #2a3e84;                    /* Dark magenta color for links */
-    text-decoration: none;            /* Removes underline from links */
+    color: #2a3e84;                  
+    text-decoration: none;           
 }
 
 .links-table a:hover {
-    text-decoration: underline;       /* Adds underline on hover */
+    text-decoration: underline;      
 }
-
