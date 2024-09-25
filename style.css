@@ -89,7 +89,7 @@ body {
 /* Styling for the links table */
 .links-table {
     width: 100%;
-    border: 1px solid #ccc;           /* Light border around the table */
+    border: 1px solid #787878;           /* Light border around the table */
     border-collapse: collapse;        /* Removes space between table borders */
     margin-top: 20px;
 }
@@ -113,7 +113,7 @@ a:hover {
 }
 
 a:active {
-    color: #cc0000;
+    color: #bb00cc;
 }
 
 a:visited {
