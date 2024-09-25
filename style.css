@@ -12,7 +12,7 @@
 body {
     font-family: Arial, sans-serif;  
     font-size: 12pt;                 
-    background-color: #e0f7fa;       
+    background-color: #f0eded;       
     color: #333366;                  
     margin: 15pt;                    
 }
@@ -20,9 +20,27 @@ body {
 
 
 /* Style for headings */
-h1, h2, h3 {
-    color: #2c3e50;                 /* Sets a different color for headings */
-    margin-bottom: 15px;            /* Adds space below each heading */
+h1 {
+    font-family: 'Georgia', serif;  /* Font choice that makes H1 stand out */
+    font-size: 28pt;                /* Large font size to indicate importance */
+    color: #2a3e84;                 /* A bold color to make it prominent */
+    margin-bottom: 10px;            /* Adds space below the heading */
+}
+
+/* Style for H2 heading */
+h2 {
+    font-family: 'Verdana', sans-serif; /* Slightly different font */
+    font-size: 24pt;                    /* Smaller than H1 to indicate less importance */
+    color: #3e4f99;                     /* A slightly lighter color */
+    margin-bottom: 8px;                 /* Adds space below the heading */
+}
+
+/* Style for H3 heading */
+h3 {
+    font-family: 'Tahoma', sans-serif;  /* Another distinct font choice */
+    font-size: 20pt;                    /* Smaller size for H3 */
+    color: #54678f;                     /* A subtler shade */
+    margin-bottom: 6px;                 /* Adds space below the heading */
 }
 
 /* Style for links */
