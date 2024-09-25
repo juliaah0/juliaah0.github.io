@@ -99,7 +99,7 @@ body {
     width: 100%;
     border: 1px solid #3e4f99;       /* Light pink border around the table */
     border-collapse: collapse;        /* Removes space between table borders */
-    background-color: #ffffff;        /* Light pink background color */
+    background-color: #ffffff;        
     margin-top: 20px;
 }
 
@@ -107,13 +107,13 @@ body {
 .links-table td {
     padding: 15px;
     border: 1px solid #3e4f99;        /* Light pink border between cells */
-    color: #4b004b;                   /* Dark magenta text color */
+    color: #2a3e84;                   /* Dark magenta text color */
     font-weight: bold;                /* Bold text */
 }
 
 /* Styling for the links */
 .links-table a {
-    color: #4b004b;                   /* Dark magenta color for links */
+    color: #2a3e84;                    /* Dark magenta color for links */
     text-decoration: none;            /* Removes underline from links */
 }
 
