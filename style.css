@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;  /* Sets the body font to Arial */
     font-size: 12pt;                 /* Sets the font size */
-    background-color: #f5f5f5;       /* Light grey background color */
+    background-color: #ffffff;       /* Light grey background color */
     color: #333366;                  /* Dark grey-blue text color */
     margin: 15pt;                    /* Margin greater than 10pt on all sides */
 }
@@ -99,7 +99,7 @@ body {
     width: 100%;
     border: 1px solid #3e4f99;       /* Light pink border around the table */
     border-collapse: collapse;        /* Removes space between table borders */
-    background-color: #ffe6f2;        /* Light pink background color */
+    background-color: #ffffff;        /* Light pink background color */
     margin-top: 20px;
 }
 
