@@ -7,14 +7,17 @@
     box-sizing: border-box;
 }
 
-/* Style the body of your page */
+
+/* Style for the body */
 body {
-    font-family: Arial, sans-serif;  /* Sets a default font */
-    line-height: 1.6;               /* Adjusts spacing between lines */
-    background-color: #f4f4f4;      /* Sets a light gray background color */
-    color: #333;                    /* Sets text color to a dark gray */
-    padding: 20px;                  /* Adds padding around the body */
+    font-family: Arial, sans-serif;  
+    font-size: 12pt;                 
+    background-color: #e0f7fa;       
+    color: #333366;                  
+    margin: 15pt;                    
 }
+
+
 
 /* Style for headings */
 h1, h2, h3 {
