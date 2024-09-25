@@ -77,27 +77,45 @@ a:visited {
     margin-top: 20px;
 }
 
-/* Styling for the text section */
-.text-div {
-    padding: 10px;
-    background-color: #e8f0fe; /* Light background color */
-    margin-bottom: 20px;
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #f5f5f5;
+    color: #333366;
+    margin: 15pt;
 }
 
-/* Styling for the links section */
-.links-div table {
+/* Styling for the links table */
+.links-table {
     width: 100%;
-    border-collapse: collapse;
+    border: 1px solid #ccc;           /* Light border around the table */
+    border-collapse: collapse;        /* Removes space between table borders */
+    margin-top: 20px;
 }
 
-/* Table cells */
-.links-div td {
-    border: 1px solid #6d6a6a;    /* Light border */
+/* Cells inside the table */
+.links-table td {
     padding: 10px;
+    border: 1px solid #ddd;           /* Light inner border */
     text-align: left;
 }
 
-/* Make link cells distinct */
-.links-div td:first-child {
-    background-color: #cad6f0;
+/* Normal state for non-visited links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003399;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #cc0000;
+}
+
+a:visited {
+    color: #551a8b;
 }
