@@ -94,28 +94,30 @@ body {
     margin-top: 20px;
 }
 
-/* Cells inside the table */
+/* Styling for the links table */
+.links-table {
+    width: 100%;
+    border: 1px solid #3e4f99;       /* Light pink border around the table */
+    border-collapse: collapse;        /* Removes space between table borders */
+    background-color: #ffe6f2;        /* Light pink background color */
+    margin-top: 20px;
+}
+
+/* Styling for each table cell */
 .links-table td {
-    padding: 10px;
-    border: 1px solid #ddd;           /* Light inner border */
-    text-align: left;
+    padding: 15px;
+    border: 1px solid #3e4f99;        /* Light pink border between cells */
+    color: #4b004b;                   /* Dark magenta text color */
+    font-weight: bold;                /* Bold text */
 }
 
-/* Normal state for non-visited links */
-a {
-    color: #0066cc;
-    text-decoration: none;
+/* Styling for the links */
+.links-table a {
+    color: #4b004b;                   /* Dark magenta color for links */
+    text-decoration: none;            /* Removes underline from links */
 }
 
-a:hover {
-    color: #003399;
-    text-decoration: underline;
+.links-table a:hover {
+    text-decoration: underline;       /* Adds underline on hover */
 }
 
-a:active {
-    color: #bb00cc;
-}
-
-a:visited {
-    color: #551a8b;
-}
