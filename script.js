@@ -5,3 +5,7 @@ document.getElementById("nameButton").addEventListener("click", function() {
     }
   });
   
+  document.getElementById("profilePic").addEventListener("click", function() {
+    this.classList.toggle("enlarged");
+  });
+  

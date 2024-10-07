@@ -90,3 +90,12 @@ a:hover {
     text-decoration: underline;
 }
 
+#profilePic {
+    width: 150px;
+    transition: width 0.5s;
+  }
+  
+  #profilePic.enlarged {
+    width: 300px;
+  }
+  
