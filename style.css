@@ -100,56 +100,37 @@ a:hover {
   }
 
 
-/* Style the main navigation */
-#navMenu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* Dropdown Button */
+.dropbtn {
+    font-size: 20px;
+    cursor: pointer;
 }
 
-#navMenu > li {
-    display: inline-block;
-    position: relative;
-    margin-right: 20px; /* Space between menu items */
-}
-
-#navMenu > li > a {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: blue; /* Color of the text */
-}
-
-/* Dropdown styling */
+/* The container <div> - needed to position the dropdown content */
 .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    top: 100%; /* Position below the "More" link */
-    left: 0; /* Align with the "More" link */
-    width: 150px; /* Adjust width to your liking */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown li {
-    display: block; /* Ensure dropdown items are vertical */
-}
-
-.dropdown li a {
-    padding: 10px;
-    display: block;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    color: blue;
-    background-color: white;
-}
-
-.dropdown li a:hover {
-    background-color: #ddd;
-}
-
-/* Show the dropdown on hover */
-#navMenu li:hover .dropdown {
     display: block;
 }
+
+/* Show the dropdown when clicked */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown */
+.show {display: block;}
