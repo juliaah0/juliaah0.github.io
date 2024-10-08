@@ -14,7 +14,7 @@ document.getElementById("profilePic").addEventListener("click", function() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -26,3 +26,15 @@ window.onclick = function(event) {
         }
     }
 }
+
+let navItems = document.querySelectorAll("#navMenu > li > a");
+
+navItems.forEach(function(item) {
+  item.addEventListener("mouseover", function() {
+    this.style.color = "blue"; 
+  });
+
+  item.addEventListener("mouseout", function() {
+    this.style.color = ""; 
+  });
+});
