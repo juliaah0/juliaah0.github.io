@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
@@ -6,6 +7,7 @@ body {
     margin: 15pt;
 }
 
+/* Main heading (h1) styling */
 h1 {
     font-family: 'Georgia', serif;
     font-size: 30pt;
@@ -13,6 +15,7 @@ h1 {
     margin-bottom: 10px;
 }
 
+/* Sub-heading (h2) styling */
 h2 {
     font-family: 'Verdana', sans-serif;
     font-size: 24pt;
@@ -90,28 +93,32 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Profile picture styling */
 #profilePic {
     width: 150px;
     transition: width 0.5s;
   }
   
+/* Enlarged profile picture styling */
   #profilePic.enlarged {
     width: 300px;
   }
 
 
-
+/* Navigation menu styling */
 #navMenu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+/* Navigation list item styling */
 #navMenu > li {
     display: block;
     margin-bottom: 10px; 
 }
 
+/* Styling for navigation links */
 #navMenu > li > a {
     padding: 10px 20px;
     text-decoration: none;
@@ -119,20 +126,20 @@ a:hover {
     display: inline-block;
 }
 
-
+/* Styling for dropdown button */
 .dropbtn {
     font-size: 16px; 
     padding: 5px 10px;
     cursor: pointer;
 }
 
-
+/* Dropdown container styling */
 .dropdown {
     position: relative;
     display: block;
 }
 
-
+/* Hidden dropdown content styling */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -141,7 +148,7 @@ a:hover {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-
+/* Styling for links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -149,12 +156,12 @@ a:hover {
     display: block;
 }
 
-
+/* Hover effect for links inside the dropdown */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-
+/* Show dropdown */
 .show {
     display: block;
 }
