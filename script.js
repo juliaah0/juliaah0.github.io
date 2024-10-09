@@ -19,7 +19,6 @@ document.getElementById("profilePic").addEventListener("click", function() {
 
 // This function will close the dropdown if the user clicks outside of the dropdown menu
 window.onclick = function(event) {
-window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         for (var i = 0; i < dropdowns.length; i++) {
@@ -29,7 +28,7 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
 
 // Query all navigation menu items within the "#navMenu" and store them in the "navItems" variable
 let navItems = document.querySelectorAll("#navMenu > li > a");
