@@ -25,7 +25,71 @@
         </ul>
     </nav>
     
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
     
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+    
+        <!-- Job Title or Role -->
+        <label for="jobTitle">What is your job title or role within your organization?</label><br>
+        <input type="radio" id="hiringManager" name="jobTitle" value="Hiring Manager/Manager">
+        <label for="hiringManager">Hiring Manager/Manager</label><br>
+        <input type="radio" id="humanResources" name="jobTitle" value="Human Resources">
+        <label for="humanResources">Human Resources</label><br>
+        <input type="radio" id="recruitment" name="jobTitle" value="Recruitment">
+        <label for="recruitment">Recruitment</label><br>
+        <input type="radio" id="lead" name="jobTitle" value="Lead">
+        <label for="lead">Lead</label><br>
+    
+        <!-- Importance of Personal Portfolios -->
+        <label for="portfolioRole">How big of a role do personal portfolios play in your hiring process?</label><br>
+        <input type="radio" id="role1" name="portfolioRole" value="Little to none">
+        <label for="role1">Little to none</label><br>
+        <input type="radio" id="role2" name="portfolioRole" value="1">
+        <label for="role2">1</label><br>
+        <input type="radio" id="role3" name="portfolioRole" value="2">
+        <label for="role3">2</label><br>
+        <input type="radio" id="role4" name="portfolioRole" value="3">
+        <label for="role4">3</label><br>
+        <input type="radio" id="role5" name="portfolioRole" value="4">
+        <label for="role5">4</label><br>
+        <input type="radio" id="role6" name="portfolioRole" value="5">
+        <label for="role6">5</label><br>
+        <input type="radio" id="role7" name="portfolioRole" value="A very big role">
+        <label for="role7">A very big role</label><br>
+    
+        <!-- Preference for Minimalist Design -->
+        <label for="designPreference">Do you prefer a portfolio with a clean, minimalist design over one that is highly interactive?</label><br>
+        <input type="radio" id="designDisagree" name="designPreference" value="Strongly disagree">
+        <label for="designDisagree">Strongly disagree</label><br>
+        <input type="radio" id="design1" name="designPreference" value="1">
+        <label for="design1">1</label><br>
+        <input type="radio" id="design2" name="designPreference" value="2">
+        <label for="design2">2</label><br>
+        <input type="radio" id="design3" name="designPreference" value="3">
+        <label for="design3">3</label><br>
+        <input type="radio" id="design4" name="designPreference" value="4">
+        <label for="design4">4</label><br>
+        <input type="radio" id="design5" name="designPreference" value="5">
+        <label for="design5">5</label><br>
+        <input type="radio" id="designAgree" name="designPreference" value="Strongly agree">
+        <label for="designAgree">Strongly agree</label><br>
+    
+        <!-- Additional Comments -->
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4"></textarea><br>
+    
+        <!-- Submit and Clear Buttons -->
+        <button type="button" onclick="submitForm()">Submit</button>
+        <button type="button" onclick="clearForm()">Clear</button>
+    </form>
+
+
     <h1>Julia Herych</h1>
 
 <!-- Image insert -->
