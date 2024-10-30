@@ -170,24 +170,53 @@ a:hover {
 
 /* Form container styling */
 form {
-    background-color: #f5f5f5; /* Same light grey background */
+    background-color: #f5f5f5; /* Light grey background */
     padding: 20px;
     border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     max-width: 600px;
-    margin: auto;
-    border: 2px solid #3e4f99; /* Darker blue border to match the theme */
+    margin: 20px auto; /* Centered form with spacing */
+    border: 2px solid #3e4f99; /* Dark blue border */
+}
+
+/* Main heading styling */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 30pt;
+    color: #2a3e84; /* Dark blue for main heading */
+    margin-bottom: 20px;
 }
 
 /* Label styling */
 form label {
-    display: block;
+    display: inline-block;
     font-weight: bold;
     color: #3e4f99; /* Dark blue color for labels */
     margin-top: 15px;
+    margin-bottom: 5px;
 }
 
-/* Input and textarea field styling */
+/* Individual question section styling for spacing */
+.form-section {
+    margin-bottom: 20px; /* Spacing between questions */
+}
+
+/* Align radio buttons and checkboxes with labels */
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Group each radio button and label pair */
+.radio-group, .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styling for input and textarea fields */
 form input[type="text"],
 form input[type="email"],
 form select,
@@ -201,19 +230,13 @@ form textarea {
     background-color: #fff; /* White background for inputs */
 }
 
-/* Styling for checkboxes and radio buttons */
-form input[type="checkbox"],
-form input[type="radio"] {
-    margin-right: 5px;
-}
-
-/* Submit and Clear button styling */
+/* Button styling */
 form button {
     width: 100%;
     padding: 10px;
     font-weight: bold;
     color: #fff;
-    background-color: #3e4f99; /* Dark blue button color */
+    background-color: #3e4f99; /* Dark blue button */
     border: none;
     border-radius: 5px;
     cursor: pointer;
