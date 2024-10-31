@@ -93,6 +93,13 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Centering the Profile Picture Container */
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
 /* Profile picture styling */
 #profilePic {
     width: 150px;
@@ -120,7 +127,7 @@ nav {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Ensures vertical alignment of all items */
+    align-items: center; 
 }
 
 /* Navigation list item styling */
@@ -134,7 +141,7 @@ nav {
 .dropbtn {
     padding: 10px 15px;
     text-decoration: none;
-    color: white; /* Replace with your desired nav text color */
+    color: white; 
     font-weight: bold;
     font-size: 16px;
     display: inline-block;
