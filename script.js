@@ -1,6 +1,4 @@
 
-// form.js
-
 // Function to handle form submission and save data to local storage
 function submitForm() {
   // Gather form data
