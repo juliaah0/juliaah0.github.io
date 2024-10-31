@@ -105,47 +105,68 @@ a:hover {
   }
 
 
-/* Navigation menu styling */
+
+/* Full-width Navigation Bar */
+nav {
+    background-color: #3e4f99; /* Replace with your desired nav background color */
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Centered Navigation Menu */
 #navMenu {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures vertical alignment of all items */
 }
 
 /* Navigation list item styling */
 #navMenu > li {
-    display: block;
-    margin-bottom: 10px; 
+    margin: 0 20px; /* Space between each nav item */
+    position: relative; /* Needed for dropdown positioning */
 }
 
-/* Styling for navigation links */
-#navMenu > li > a {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: blue;
-    display: inline-block;
-}
-
-/* Styling for dropdown button */
+/* Styling for navigation links and dropdown button */
+#navMenu > li > a,
 .dropbtn {
-    font-size: 16px; 
-    padding: 5px 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white; /* Replace with your desired nav text color */
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for navigation links */
+#navMenu > li > a:hover,
+.dropbtn:hover {
+    background-color: #2a3e84; /* Darker color on hover */
+    border-radius: 5px;
+}
+
+/* Dropdown Button styling */
+.dropbtn {
+    background: none;
+    border: none;
     cursor: pointer;
 }
 
-/* Dropdown container styling */
-.dropdown {
-    position: relative;
-    display: block;
-}
-
-/* Hidden dropdown content styling */
+/* Dropdown content styling */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    top: 100%; /* Positions dropdown below the button */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
 /* Styling for links inside the dropdown */
@@ -156,7 +177,6 @@ a:hover {
     display: block;
 }
 
-/* Hover effect for links inside the dropdown */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
@@ -171,7 +191,7 @@ a:hover {
 /* Form container styling */
 form {
     background-color: #f5f5f5; /* Light grey background */
-    padding: 20px;
+    padding: 40px;
     border-radius: 12px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     max-width: 600px;
