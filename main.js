@@ -43,3 +43,41 @@ navItems.forEach(function(item) {
     this.style.color = ""; 
   });
 });
+
+// Function to enlarge text on the entire page
+function enlargeText() {
+  document.body.classList.add("large-text"); 
+}
+
+
+
+// Function to reset text size on the entire page
+function resetText() {
+  document.body.classList.remove("large-text"); 
+}
+
+
+
+// Function to enlarge text on the entire page
+function enlargeText() {
+  document.body.style.fontSize = "1.25em"; // Increase font size
+}
+
+
+// Function to reset text size on the entire page
+function resetText() {
+  document.body.style.fontSize = ""; // Reset to default size
+}
+
+
+// Function to toggle black-and-white mode for all images
+function toggleBlackAndWhite() {
+  document.body.classList.toggle("black-and-white");
+}
+
+
+function showAltText(imageId) {
+  const image = document.getElementById(imageId);
+  alert(image.alt);
+}
+
