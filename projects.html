@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +11,7 @@
 <body>
 
     <!-- Navigation section and links to pages-->
+
     <nav>
         <ul id="navMenu">
             <li><a href="index.html">Home</a></li>
@@ -23,13 +26,52 @@
             </li>
         </ul>
     </nav>
-    
-    
 
     <h1>Julia Herych's Projects</h1>
     <p>Here you can find a collection of Julia's recent projects, including academic work and personal endeavors.
         To be added soon!
     </p>
+
+       <!-- Audio Section -->
+
+<div class="audio-section">
+
+    <h2>Audio: "Path of The Wind" by Joe Hisaishi</h2>
+
+    <audio controls>
+
+        <source src="Media/Pathofwind.mp3" type="audio/mpeg">
+
+        Your browser does not support the audio element.
+    </audio>
+    <figcaption>Figure 1. "Path of The Wind" by Joe Hisaishi (Used with proper citation - APA 7th edition).</figcaption>
+
+</div>
+
+<h2>My Photos</h2>
+
+
+<div class="photo-gallery">
+
+    <figure>
+        <img src="./Images/IMG_6122.jpeg" alt="Sunset through the dark forest in High Park on October 5, 2024." id="photo1">
+        <figcaption>Banff National Park, October 5, 2024</figcaption>
+        <button onclick="showAltText('photo1')">Show Alt Text</button>
+    </figure>
+
+    <figure>
+        <img src="./Images/IMG_6093.jpeg" alt="Dog laying confortably on bed on November 3, 2024." id="photo2">
+        <figcaption>Lake Louise, November 3, 2024</figcaption>
+        <button onclick="showAltText('photo2')">Show Alt Text</button>
+    </figure>
+
+    <figure>
+        <img src="./Images/IMG_6081.jpeg" alt="An enternce to a nice resturant in downtown Toronto on October 24, 2024." id="photo3">
+        <figcaption>Toronto, October 24, 2024</figcaption>
+        <button onclick="showAltText('photo3')">Show Alt Text</button>
+    </figure>
+</div>
+
 
     <!-- Link to JS file -->
     <script src="main.js"></script>
